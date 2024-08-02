@@ -1,0 +1,7 @@
+la Clara és més jove que tu: edatMeva > edatClara == true
+la Clara i el Marc són més joves que tu : edatMeva > edatClara && edatMarc == true
+la Clara és més jove que tu i tu ets més jove que el Marc: edatMarc > edatMeva > edatClara == true
+la Clara no és més jove que el Marc : edatMarc > edatClara == false
+no és cert que el Marc sigui més jove que la Clara : edatClara > edatMarc == false
+Ni el Marc és més jove que la Clara ni tu ets més jove que el Marc : edatClara > edatMarc || edatMeva > edatClara ==true 
+Tu ets més gran que la Clara i el Marc junts o bé la Clara i el Marc tenen la mateixa edat : edatMeva > edatClara && edatMarc || edatClara = edatMarc == true
